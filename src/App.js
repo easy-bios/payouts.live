@@ -121,7 +121,7 @@ function App() {
   }
 
   return (
-    <React.Fragment>
+    <>
       <CssBaseline />
 
       <div className="banner"></div>
@@ -188,7 +188,7 @@ function App() {
       ) : (
         ""
       )}
-    </React.Fragment>
+    </>
   );
 }
 
