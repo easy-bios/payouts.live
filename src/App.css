@@ -135,7 +135,7 @@ div.next-blinds {
   left: 5%;
   width: 90%;
   height: 10%;
-  top: 65%;
+  bottom: 10%;
   /* background-color: grey; */
   display: flex;
   align-items: center;
