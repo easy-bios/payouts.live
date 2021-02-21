@@ -134,8 +134,8 @@ div.next-blinds {
   position: absolute;
   left: 5%;
   width: 90%;
-  height: 10%;
-  bottom: 10%;
+  /* height: 10%; */
+  bottom: 10vh;
   /* background-color: grey; */
   display: flex;
   align-items: center;
@@ -145,7 +145,7 @@ div.next-blinds {
   background-repeat: no-repeat;
   background-size: contain;
   filter: drop-shadow(0 0 4px #ffffffd0); */
-  font-size: 6vw;
+  font-size: 9vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
 }
@@ -169,8 +169,9 @@ div.next-blinds {
   .banner {
     left: 33%;
     width: 34%;
-    height: 20%;
-    bottom: 3.5em;
+    font-size: 6vw;
+    /* height: 20%;
+    bottom: 3.5em; */
   }
 }
 
@@ -198,8 +199,9 @@ div.next-blinds {
   .banner {
     left: 22.5%;
     width: 55%;
-    height: 20%;
-    bottom: 3.5em;
+    font-size: 9vh;
+    /* height: 20%;
+    bottom: 3.5em; */
   }
 }
 
