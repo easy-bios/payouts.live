@@ -120,8 +120,8 @@ div.next-blinds {
   width: 100%;
   justify-content: center;
   position: absolute;
-  bottom: 0.5em;
-  font-size: 3vh;
+  bottom: 3vh;
+  font-size: max(3vh, 16px);
 }
 
 .time-buttons {
