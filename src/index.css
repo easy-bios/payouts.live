@@ -19,12 +19,13 @@ body {
 }
 
 #root {
-  --height: 1vh;
+  --height: 100vh;
   position: absolute;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-size: min(3vw, calc(3 * var(--height)));
+  font-size: min(3vw, 3vh);
+  font-size: min(3vw, calc(0.03 * var(--height)));
 }
 
 body {

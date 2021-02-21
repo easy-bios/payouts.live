@@ -134,14 +134,20 @@ div.next-blinds {
   position: absolute;
   left: 5%;
   width: 90%;
-  bottom: 9%;
   height: 10%;
+  top: 65%;
   /* background-color: grey; */
-  background-image: url("/logo.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url("/logo.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  filter: drop-shadow(0 0 4px #ffffffd0);
+  filter: drop-shadow(0 0 4px #ffffffd0); */
+  font-size: 6vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
 }
 
 @media only screen and (min-aspect-ratio: 3/4) {
@@ -161,7 +167,6 @@ div.next-blinds {
     left: 70%;
   }
   .banner {
-    position: absolute;
     left: 33%;
     width: 34%;
     height: 20%;
@@ -191,7 +196,6 @@ div.next-blinds {
     left: 20%;
   }
   .banner {
-    position: absolute;
     left: 22.5%;
     width: 55%;
     height: 20%;

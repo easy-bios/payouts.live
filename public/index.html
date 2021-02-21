@@ -43,7 +43,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div class="debug" style="position:absolute;top:0;left:0;color:white;">test</div>
+    <!-- <div class="debug" style="position:absolute;top:0;left:0;color:white;">test</div> -->
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -58,9 +58,9 @@
   </body>
   <script>
     function setHeight() {
-      var h = window.innerHeight / 100 + "px";
+      var h = window.innerHeight + "px";
       document.querySelector("#root").style.setProperty('--height', h);
-      document.querySelector(".debug").innerHTML = h;
+      // document.querySelector(".debug").innerHTML = h;
     }
     setHeight();
     window.onresize = setHeight;

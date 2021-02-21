@@ -123,8 +123,8 @@ function App() {
   return (
     <>
       <CssBaseline />
-
-      <div className="banner"></div>
+      
+      <div className="banner">payouts.LIVE</div>
 
       <Main
         titles={titles}
